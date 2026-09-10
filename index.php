@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fill My Pipeline | Customer Acquisition & Growth for Businesses</title>
+<meta name="theme-color" content="#07182c">
+<meta name="description" content="Paid ads, conversion landing pages and automated follow-up for service businesses. Request a free growth plan.">
+<style>
+:root{--navy:#07182c;--navy2:#0b2444;--blue:#1769e8;--cyan:#25a6ff;--white:#fff;--muted:#aebed1;--paper:#f4f7fb;--ink:#0b1728;--green:#22c58b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#fff}a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 24px}
+.hero{color:#fff;background:radial-gradient(circle at 82% 15%,#123d75 0,transparent 34%),linear-gradient(135deg,#061426,#0a2344 60%,#07182c);padding:20px 0 72px;overflow:hidden}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px}.logo{display:flex;align-items:center;gap:12px;font-weight:900;font-size:20px}.logo-badge{width:76px;height:76px;border-radius:50%;background:#07182c;overflow:hidden;border:2px solid #1769e8;box-shadow:0 8px 26px #0007}.logo-badge img{width:100%;height:100%;object-fit:cover;object-position:center}.logo span{font-size:21px;letter-spacing:.025em}.nav a.cta,.btn{background:linear-gradient(135deg,var(--blue),var(--cyan));color:#fff;padding:14px 20px;border-radius:11px;font-weight:900;display:inline-block;border:0;cursor:pointer}
+.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:46px;align-items:center;padding-top:58px}.eyebrow{color:#57b7ff;font-size:13px;font-weight:900;letter-spacing:.13em;text-transform:uppercase}h1{font-size:clamp(42px,6vw,76px);line-height:.94;margin:13px 0 20px;letter-spacing:-.05em}h1 span{color:#3b95ff}.sub{font-size:19px;line-height:1.6;color:#d3dfeb;max-width:650px}.ticks{display:flex;flex-wrap:wrap;gap:10px 20px;margin:25px 0}.ticks span{font-size:14px;font-weight:800}.ticks span:before{content:"✓";color:var(--green);margin-right:7px}
+.form{background:#fff;color:var(--ink);padding:27px;border-radius:18px;box-shadow:0 25px 70px #0008}.form h2{font-size:28px;margin:0 0 6px}.form .mini{color:#65758a;margin:0 0 18px;line-height:1.45}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}label{font-size:12px;font-weight:800;display:block;margin-bottom:6px}input,select,textarea{width:100%;border:1px solid #d8e1eb;background:#f8fafc;border-radius:9px;padding:13px;font:inherit}textarea{min-height:84px;resize:vertical}.field{margin-bottom:12px}.submit{width:100%;font-size:16px;margin-top:4px}.fine{font-size:10px;line-height:1.45;color:#738195}
+.strip{background:#0e66d8;color:#fff;padding:15px 0;text-align:center;font-weight:900;letter-spacing:.08em}section{padding:72px 0}.center{text-align:center}h2.section-title{font-size:clamp(32px,4vw,48px);margin:0 0 12px;letter-spacing:-.035em}.lede{max-width:760px;margin:0 auto 35px;color:#607086;font-size:17px;line-height:1.6}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid #e1e7ef;border-radius:16px;padding:25px;background:#fff;box-shadow:0 8px 30px #10223a0c}.icon{font-size:30px}.card h3{font-size:20px;margin:12px 0 8px}.card p{color:#66778b;line-height:1.55;margin:0}
+.dark{background:#07182c;color:#fff}.dark .lede{color:#aebed1}.proof{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.proof-card{background:#0c2749;border:1px solid #24476d;border-radius:16px;padding:24px}.industry{color:#56b5ff;font-size:12px;font-weight:900;letter-spacing:.12em}.quote{font-size:17px;line-height:1.6;margin:15px 0}.proof-note{font-size:12px;color:#9cb0c7}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.step{padding:20px}.num{width:38px;height:38px;border-radius:50%;background:#eaf3ff;color:#1769e8;display:grid;place-items:center;font-weight:900}.step h3{margin:14px 0 8px}.step p{color:#68798d;line-height:1.5}
+.cta-band{background:linear-gradient(135deg,#0b4fba,#168cff);color:#fff;border-radius:22px;padding:42px;text-align:center}.cta-band h2{font-size:38px;margin:0 0 12px}.cta-band p{max-width:680px;margin:0 auto 22px;color:#e8f2ff}
+footer{background:#050e1a;color:#aebed1;padding:35px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.legal a{text-decoration:underline;margin-left:14px}
+.sticky{display:none}
+@media(max-width:850px){.hero-grid{grid-template-columns:1fr;padding-top:38px}.cards,.proof,.process{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.logo-badge{width:58px;height:58px}.logo span{font-size:17px}body{padding-bottom:72px}.nav .cta{display:none}.hero{padding-bottom:48px}.hero-grid{gap:28px}.grid,.cards,.proof,.process{grid-template-columns:1fr}.form{padding:21px}.sticky{display:block;position:fixed;bottom:10px;left:12px;right:12px;z-index:999;background:#1769e8;color:#fff;text-align:center;padding:15px;border-radius:12px;font-weight:900;box-shadow:0 10px 35px #0007}}
+
+/* Alignment fixes */
+.cards,.proof,.process{align-items:stretch}
+.cards{grid-template-columns:repeat(2,minmax(0,1fr)) !important}
+.card,.proof-card,.step{height:100%;display:flex;flex-direction:column}
+.card p,.proof-card .quote,.step p{flex:1}
+.process{grid-template-columns:repeat(4,minmax(0,1fr))}
+.cta-band{width:100%;margin-left:auto;margin-right:auto}
+@media(max-width:850px){
+  .cards,.proof{grid-template-columns:repeat(2,minmax(0,1fr)) !important}
+  .process{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:600px){
+  .cards,.proof,.process{grid-template-columns:1fr !important}
+  .card,.proof-card,.step{height:auto}
+}
+
+
+/* FINAL MOBILE TOP + HERO FIX */
+html,body{margin:0!important;padding:0!important;background:#07182c!important;width:100%;overflow-x:hidden}
+body{min-height:100vh}
+.hero{margin:0!important;padding-top:0!important;background:radial-gradient(circle at 82% 15%,#123d75 0,transparent 34%),linear-gradient(135deg,#061426,#0a2344 60%,#07182c)!important}
+.nav{padding-top:18px}
+@media(max-width:600px){
+  html,body{margin:0!important;padding:0!important;background:#07182c!important}
+  .hero{margin:0!important;padding:0 0 42px!important}
+  .nav{padding-top:14px!important}
+  .hero-grid{padding-top:30px!important}
+  h1{font-size:clamp(40px,12vw,58px);line-height:.95}
+  .sub{font-size:17px;line-height:1.5}
+}
+
+
+.results-section{background:#07182c}
+.dashboard{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:30px 0 18px}
+.metric{background:#0d2b50;border:1px solid #28527d;border-radius:14px;padding:18px}
+.metric span{display:block;color:#61bdff;font-size:11px;font-weight:900;letter-spacing:.1em}
+.metric strong{display:block;color:#fff;font-size:23px;margin:8px 0}
+.metric small{color:#9eb2c9;line-height:1.4}
+.report-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}
+.report-card{background:#fff;color:#0b1728;border-radius:16px;padding:22px}
+.report-head{display:flex;justify-content:space-between;gap:15px}.report-head span{font-size:12px;color:#64758a}
+.chart-bars{height:190px;display:flex;align-items:flex-end;gap:10px;padding:24px 5px 10px;border-bottom:1px solid #dce5ef}
+.chart-bars i{display:block;flex:1;background:linear-gradient(#29a7ff,#1769e8);border-radius:6px 6px 2px 2px}
+.chart-labels{display:flex;justify-content:space-between;color:#66778b;font-size:11px;margin-top:8px}
+.demo-note{display:block;color:#7b8999;margin-top:15px;line-height:1.4}
+.metric-list{list-style:none;padding:8px 0 0;margin:0}.metric-list li{display:flex;justify-content:space-between;gap:15px;padding:13px 0;border-bottom:1px solid #e5ebf2}.metric-list em{font-style:normal;color:#64758a;font-size:12px}.results-cta{margin-top:25px}
+@media(max-width:850px){.dashboard{grid-template-columns:repeat(2,1fr)}.report-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.dashboard{grid-template-columns:1fr 1fr}.metric{padding:15px}.metric strong{font-size:19px}.report-card{padding:18px}.chart-bars{height:155px}}
+
+
+/* CLEAN TRANSITION + MOBILE SPACING FIX */
+.audience-wrap{background:#07182c;padding:18px 24px 4px}
+.audience-pill{max-width:1080px;margin:0 auto;border:1px solid #24558b;background:#0d2b50;border-radius:14px;padding:15px 18px;text-align:center}
+.audience-pill span{display:block;color:#55b7ff;font-size:11px;font-weight:900;letter-spacing:.15em;margin-bottom:7px}
+.audience-pill p{margin:0;color:#e7f1fc;font-size:13px;font-weight:800;line-height:1.6}
+.audience-pill b{color:#31d39b;margin:0 5px}
+.after-hero{padding-top:42px!important;padding-bottom:58px!important}
+.after-hero .section-title{margin-bottom:12px}
+.after-hero .lede{margin-bottom:28px}
+@media(max-width:600px){
+ .audience-wrap{padding:14px 16px 0}
+ .audience-pill{padding:13px 14px;border-radius:12px}
+ .audience-pill p{font-size:12px;line-height:1.55}
+ .after-hero{padding-top:30px!important;padding-bottom:42px!important}
+ .after-hero .section-title{font-size:31px;line-height:1.06;margin:0 0 12px}
+ .after-hero .lede{font-size:16px;line-height:1.55;margin:0 auto 24px}
+ section{padding:50px 0}
+}
+
+</style>
+</head>
+<body>
+<header class="hero" id="top">
+<div class="wrap">
+<nav class="nav">
+<div class="logo"><div class="logo-badge"><img src="data:image/jpeg;base64,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" alt=""></div><span>FILL MY PIPELINE</span></div>
+<a class="cta" href="#growth-form">GET MY FREE GROWTH PLAN</a>
+</nav>
+<div class="hero-grid">
+<div>
+<div class="eyebrow">Customer Acquisition & Growth for Businesses</div>
+<h1>READY TO GROW?<br><span>WE BUILD THE SYSTEM.</span></h1>
+<p class="sub">Fill My Pipeline is a full-service growth agency for businesses that want more customers, stronger marketing and better systems. We handle media buying, creative, Meta advertising, funnels, websites, CRM creation and management, appointment setting, sales support, Shopify, apps and custom software when needed — all built around one goal: helping your business grow.</p>
+<div class="ticks"><span>Media Buying</span><span>Creative</span><span>Funnels</span><span>CRM Build & Management</span><span>Meta Ads</span><span>Appointment Setting</span><span>Sales Support</span><span>Websites</span><span>Apps & Software</span><span>Shopify Development</span><span>Lead Tracking</span></div>
+<a class="btn" href="#growth-form">LET’S GROW TOGETHER →</a>
+</div>
+<form class="form" id="growth-form">
+<div class="eyebrow">Free • No Obligation</div>
+<h2>Tell Us Where You Want to Grow</h2>
+<p class="mini">Tell us about your business, what you want to improve and the monthly budget you’re prepared to invest. Serious inquiries only.</p>
+<div class="grid"><div class="field"><label>Name *</label><input name="name" required placeholder="Your name"></div><div class="field"><label>Business *</label><input name="business" required placeholder="Company name"></div></div>
+<div class="grid"><div class="field"><label>Phone *</label><input name="phone" type="tel" required placeholder="Best number"></div><div class="field"><label>Email *</label><input name="email" type="email" required placeholder="you@company.com"></div></div>
+<div class="field"><label>Industry *</label><select name="industry" required><option value="">Choose your industry</option><option>Home / Local Services</option><option>Professional Services</option><option>Retail / E-commerce</option><option>Real Estate</option><option>Automotive</option><option>Hospitality / Events</option><option>Health / Wellness</option><option>Construction / Trades</option><option>B2B</option><option>Other Business</option></select></div>
+<div class="field"><label>Monthly marketing budget *</label>
+<select name="monthly_budget" required>
+<option value="">Select monthly budget</option>
+<option>Under $1,500</option>
+<option>$1,500–$2,500</option>
+<option>$2,500–$5,000</option>
+<option>$5,000–$10,000</option>
+<option>$10,000+</option>
+</select></div>
+<div class="field"><label>Are you ready to invest in marketing now? *</label>
+<select name="ready_to_invest" required>
+<option value="">Select one</option><option>Yes — ready now</option><option>Within 30 days</option><option>Just researching</option>
+</select></div>
+<div class="field"><label>What do you want help with?</label><textarea name="goal" placeholder="More leads, booked estimates, better follow-up, ads that actually work..."></textarea></div>
+<div style="font-size:12px;font-weight:900;color:#b42318;background:#fff1f0;border:1px solid #ffd2cf;padding:11px 12px;border-radius:8px;margin:4px 0 12px">SERIOUS INQUIRIES ONLY — This form is for businesses prepared to invest in marketing and growth.</div><button class="btn submit" type="submit">LET’S GROW TOGETHER →</button>
+<p class="fine">By submitting, you agree to be contacted about your request by phone, email and/or text. Message and data rates may apply. Consent is not a condition of purchase.</p>
+</form>
+
+<div id="growth-thanks" class="form" style="display:none">
+  <div class="eyebrow">Request received</div>
+  <h2>Thanks — we got your growth request.</h2>
+  <p class="mini">Keith will review this and follow up shortly. A confirmation email is on the way.</p>
+</div>
+
+</div></div></header>
+<div class="audience-wrap"><div class="audience-pill">
+<span>BUILT FOR GROWTH</span>
+<p>Local Businesses <b>•</b> B2B <b>•</b> E-Commerce <b>•</b> Professional Services <b>•</b> Retail <b>•</b> Real Estate <b>•</b> Trades <b>•</b> Hospitality <b>•</b> And More</p>
+</div></div>
+
+<section class="after-hero"><div class="wrap center">
+<h2 class="section-title">More Than Marketing.<br>A System Built to Grow Your Business.</h2>
+<p class="lede">We connect the pieces that too often live separately — strategy, creative, advertising, funnels, websites, CRM, follow-up and sales support — so your marketing has a clear path from attention to opportunity.</p>
+<div class="cards">
+<div class="card"><div class="icon">🎯</div><h3>Media Buying & Advertising</h3><p>Campaign strategy, Meta ads, audience testing, optimization and media buying built around generating real opportunities.</p></div>
+<div class="card"><div class="icon">⚡</div><h3>Creative & Funnels</h3><p>Ad creative, offers and conversion-focused landing pages designed to turn attention into leads and appointments.</p></div>
+<div class="card"><div class="icon">📲</div><h3>CRM, Appointments & Sales</h3><p>CRM creation and management, automated follow-up, appointment setting and sales support so leads have somewhere to go after they respond.</p></div>
+<div class="card"><div class="icon">💻</div><h3>Websites & Development</h3><p>Website creation, redesigns and updates, custom web development, app development, software development and Shopify store development when the technology is needed to support your growth and fill your pipeline.</p></div>
+</div></div></section>
+
+<section class="dark results-section"><div class="wrap">
+<div class="center"><div class="eyebrow">REPORTING &amp; OPTIMIZATION</div>
+<h2 class="section-title">Know What Your Marketing Is Doing.</h2>
+<p class="lede">We track the numbers that matter, report what’s happening and use the data to improve campaigns, creative, funnels and follow-up.</p></div>
+
+<div class="dashboard">
+  <div class="metric"><span>AD SPEND</span><strong>Tracked</strong><small>See where your budget is going.</small></div>
+  <div class="metric"><span>LEADS</span><strong>Measured</strong><small>Track inquiries generated by campaigns.</small></div>
+  <div class="metric"><span>COST / LEAD</span><strong>Optimized</strong><small>Understand what each opportunity costs.</small></div>
+  <div class="metric"><span>ROAS / ROI</span><strong>Reviewed</strong><small>Connect marketing activity to business outcomes.</small></div>
+</div>
+
+<div class="report-grid">
+ <div class="report-card">
+   <div class="report-head"><strong>Campaign Performance</strong><span>Meta Ads</span></div>
+   <div class="chart-bars">
+    <i style="height:32%"></i><i style="height:46%"></i><i style="height:40%"></i><i style="height:62%"></i><i style="height:55%"></i><i style="height:78%"></i><i style="height:88%"></i>
+   </div>
+   <div class="chart-labels"><span>Reach</span><span>Clicks</span><span>Leads</span></div>
+   <small class="demo-note">Illustrative reporting dashboard — your actual account uses real campaign data.</small>
+ </div>
+ <div class="report-card">
+   <div class="report-head"><strong>What We Watch</strong><span>Performance</span></div>
+   <ul class="metric-list">
+    <li><b>Impressions &amp; Reach</b><em>Visibility</em></li>
+    <li><b>Clicks &amp; CTR</b><em>Engagement</em></li>
+    <li><b>Leads &amp; Conversions</b><em>Results</em></li>
+    <li><b>Cost Per Result</b><em>Efficiency</em></li>
+    <li><b>ROAS / Revenue</b><em>Business impact</em></li>
+   </ul>
+ </div>
+</div>
+<div class="center"><a class="btn results-cta" href="#growth-form">LET’S GROW TOGETHER →</a></div>
+</div></section>
+
+
+<section class="dark"><div class="wrap center">
+<div class="eyebrow">We’re Built for Growth</div>
+<h2 class="section-title">One Agency. One Growth System.</h2>
+<p class="lede">Instead of hiring separate people for ads, creative, funnels, CRM, websites, development and follow-up, Fill My Pipeline brings the pieces together under one customer-acquisition system. If your growth requires a new website, Shopify store, app, custom software or development work, we can build that too.</p>
+<div class="cta-band" style="max-width:850px;margin:auto">
+<h2>Ask About Our 90-Day Guarantee</h2>
+<p>Qualified engagements may be eligible for our 90-day money-back guarantee. Eligibility and terms are defined in the service agreement before work begins.</p>
+<a class="btn" href="#growth-form">SEE IF WE’RE A FIT →</a>
+</div></div></section>
+
+<section><div class="wrap center">
+<h2 class="section-title">One System. Four Steps.</h2><p class="lede">We keep the process simple so you can focus on running the business and closing good opportunities.</p>
+<div class="process">
+<div class="step"><div class="num">1</div><h3>Build the Offer</h3><p>Clarify the service, market and reason someone should respond now.</p></div>
+<div class="step"><div class="num">2</div><h3>Launch the Campaign</h3><p>Create the ads and send traffic to a focused conversion path.</p></div>
+<div class="step"><div class="num">3</div><h3>Capture & Follow Up</h3><p>New inquiries enter the CRM so your team can respond and track them.</p></div>
+<div class="step"><div class="num">4</div><h3>Improve What Works</h3><p>Use real lead and sales data to improve the system over time.</p></div>
+</div></div></section>
+
+<section><div class="wrap"><div class="cta-band">
+<h2>Ready to Grow?</h2><p>If you’re serious about growth and have a real marketing budget, tell us about your business. We’ll see if we’re a fit and show you how Fill My Pipeline can help. Let’s grow together.</p><a class="btn" href="#growth-form">GET MY FREE GROWTH PLAN →</a>
+</div></div></section>
+
+<footer><div class="wrap foot"><div><strong>Fill My Pipeline</strong> — Customer Acquisition<br>grow.thekeithhopkins.com</div><div class="legal"><a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">SMS Terms</a></div></div></footer>
+<a class="sticky" href="#growth-form">GET MY FREE GROWTH PLAN →</a>
+
+
+<script>
+(function(){
+  var WEBHOOK = "https://services.leadconnectorhq.com/hooks/dtvuifjOwKjniV5fJ0mr/webhook-trigger/7bd70419-ea5c-4096-8ca8-beb458705152";
+  var form = document.getElementById("growth-form");
+  if (!form) return;
+  var thanks = document.getElementById("growth-thanks");
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    if (!WEBHOOK || WEBHOOK.indexOf("__GHL") === 0) {
+      alert("Form backend is not connected yet.");
+      return;
+    }
+    var fd = new FormData(form);
+    var data = {};
+    fd.forEach(function(value, key){
+      if (data[key] === undefined) data[key] = value;
+      else if (Array.isArray(data[key])) data[key].push(value);
+      else data[key] = [data[key], value];
+    });
+    if (Array.isArray(data.services)) data.services = data.services.join(", ");
+    var btn = form.querySelector('[type="submit"]');
+    if (btn) { btn.disabled = true; btn.dataset.prev = btn.textContent; btn.textContent = "Sending..."; }
+    fetch(WEBHOOK, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data)
+    }).then(function(res){
+      if (!res.ok) throw new Error("status " + res.status);
+      form.style.display = "none";
+      if (thanks) thanks.style.display = "block";
+      if (thanks) thanks.scrollIntoView({behavior:"smooth", block:"center"});
+    }).catch(function(){
+      if (btn) { btn.disabled = false; btn.textContent = btn.dataset.prev || "Submit"; }
+      alert("Something went wrong sending your request. Please try again or email Keith@thekeithhopkins.com");
+    });
+  });
+})();
+</script>
+
+<!-- JM GHL SETUP:
+Use this HTML as the live grow.thekeithhopkins.com page.
+Connect the form to the Fill My Pipeline GHL sub-account/pipeline.
+On successful submission:
+1. Create/update the GHL contact.
+2. Create an opportunity in the Fill My Pipeline pipeline. Route the full lead notification to Keith@thekeithhopkins.com.
+3. Save every submitted field to the contact/opportunity, including monthly marketing budget and readiness to invest.
+4. Send the full lead notification to Keith@thekeithhopkins.com.
+5. Send the prospect an automatic thank-you/confirmation email, like the electric landing-page form.
+6. Show an on-page thank-you confirmation only after GHL successfully accepts the submission.
+7. Test with a real submission before publishing.
+Do not redesign the page; finish the GHL/backend connection and legal links.
+-->
+</body></html>
